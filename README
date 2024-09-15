@@ -1,0 +1,16 @@
+
+Transaction: 
+https://explorer.solana.com/tx/2gLYfahLNvqTWtGxsewXLg8aorycf6K58vEBznHWT3gwcNwNbnF8a2RNULt3FWTu2kan7xtkiyF9v3fr1nJScGY?cluster=testnet
+
+Program ID: 5NMc41R2sqrSq43Swde51o159B7aCEeMaLzZfJvnVTu9
+
+
+Deploying the program:
+1. cd program
+2. cargo build-bpf
+3. solana program deploy target/deploy/solana_user_data.so
+
+
+Call the program by Sending Tx: 
+1. cd client 
+2. cargo run
